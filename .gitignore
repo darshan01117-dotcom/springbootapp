@@ -1,0 +1,72 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Environment and secrets
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.jks
+**/secrets/**
+**/credentials/**
+**/config/*.json
+*.secret
+*.token
+*.credentials
+
+# API keys / passwords / tokens
+**/*.env
+**/*secret*
+**/*token*
+**/*password*
+**/*credential*
+
+# Dependency directories
+node_modules/
+
+# Build / cache / IDE files
+.cache/
+*.log
+*.tmp
+*.bak
+*.swp
+*.orig
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### OS ###
+.DS_Store
+Thumbs.db
